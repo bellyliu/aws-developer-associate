@@ -1,6 +1,13 @@
 # AWS Route53 Geoproximity
 It allow us to redirect users traffic to our resources based on geographic location of the users and resources which potentialy reducing the latency and improvin users experience. It utilizing a `bias` value to adjust the geographic area from which traffic is routed to particular resources.
 
+## Use cases
+- Traffic Biasing:
+Geoproximity routing allows for the allocation of traffic based on geographic location, with the option to shift traffic from one location to another using positive or negative bias values
+- Latency Optimization:
+By routing users to the nearest resource, applications experience reduced latency, leading to faster load times and a better overall user experience. 
+- Data Residency Preferences:
+Geoproximity routing can be used to route traffic to resources within specific geographic regions, fulfilling data residency requirements for sensitive data
 ### Example
 1. US West (Oregon)
 2. Europe (Frankfurt)
