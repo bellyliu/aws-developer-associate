@@ -10,3 +10,5 @@ We don't have to create the DB like RDS, instead we create the tables.
 - Tables can have infinite number of items or row
 - An item can consists of **Primary Key (PK)** and **Attributes** (coloumn)
 - 
+
+#### Local Secondary Index (LSI) & Global Secondary Index (GSI)
